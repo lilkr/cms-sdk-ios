@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84B519E01C6E30B80077C96B /* CMSSDKFMModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B519DE1C6E30B80077C96B /* CMSSDKFMModel.h */; };
+		84B519E11C6E30B80077C96B /* CMSSDKFMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B519DF1C6E30B80077C96B /* CMSSDKFMModel.m */; };
 		84FDE8D51C6B389D0082C8E4 /* DoraCMSSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 84FDE8D41C6B389D0082C8E4 /* DoraCMSSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84FDE8DC1C6B389E0082C8E4 /* DoraCMSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FDE8D11C6B389D0082C8E4 /* DoraCMSSDK.framework */; };
 		84FDE8E11C6B389E0082C8E4 /* DoraCMSSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FDE8E01C6B389E0082C8E4 /* DoraCMSSDKTests.m */; };
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84B519DE1C6E30B80077C96B /* CMSSDKFMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSSDKFMModel.h; sourceTree = "<group>"; };
+		84B519DF1C6E30B80077C96B /* CMSSDKFMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSSDKFMModel.m; sourceTree = "<group>"; };
 		84FDE8D11C6B389D0082C8E4 /* DoraCMSSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DoraCMSSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FDE8D41C6B389D0082C8E4 /* DoraCMSSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoraCMSSDK.h; sourceTree = "<group>"; };
 		84FDE8D61C6B389D0082C8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 				84FDE8EE1C6B3E5A0082C8E4 /* CMSSDKModel.m */,
 				84FDE8F11C6B3F7C0082C8E4 /* CMSSDKArticleModel.h */,
 				84FDE8F21C6B3F7C0082C8E4 /* CMSSDKArticleModel.m */,
+				84B519DE1C6E30B80077C96B /* CMSSDKFMModel.h */,
+				84B519DF1C6E30B80077C96B /* CMSSDKFMModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -139,6 +145,7 @@
 				84FDE8EF1C6B3E5A0082C8E4 /* CMSSDKModel.h in Headers */,
 				84FDE8D51C6B389D0082C8E4 /* DoraCMSSDK.h in Headers */,
 				84FDE8FB1C6B99180082C8E4 /* CMSSDKError.h in Headers */,
+				84B519E01C6E30B80077C96B /* CMSSDKFMModel.h in Headers */,
 				84FDE8F71C6B97A40082C8E4 /* CMSSDKRequest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +250,7 @@
 				84FDE8F81C6B97A40082C8E4 /* CMSSDKRequest.m in Sources */,
 				84FDE8F41C6B3F7C0082C8E4 /* CMSSDKArticleModel.m in Sources */,
 				84FDE8FC1C6B99180082C8E4 /* CMSSDKError.m in Sources */,
+				84B519E11C6E30B80077C96B /* CMSSDKFMModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +432,7 @@
 				84FDE8E71C6B389E0082C8E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84FDE8E81C6B389E0082C8E4 /* Build configuration list for PBXNativeTarget "DoraCMSSDKTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +441,7 @@
 				84FDE8EA1C6B389E0082C8E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
